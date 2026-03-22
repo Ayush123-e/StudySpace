@@ -121,7 +121,136 @@ npm run dev
 cd frontend
 npm install
 
-# Start the Vite development sever
+# Start the Vite development severStudySpace
+
+StudySpace is a modern, AI-powered EdTech web application designed to help students master video content in record time. It allows users to watch educational YouTube videos while seamlessly taking timestamp-synced rich text notes and interacting with a context-aware AI tutor built right into the workspace.
+
+Features
+
+Video-Integrated Learning: Paste a YouTube link and watch your video alongside your notes. No more alt-tabbing or losing your place.
+
+Timestamp-Synced Notes: Take rich text notes (with formatting and links) that automatically sync with video timestamps.
+
+AI Tutor (Powered by Gemini): Stuck on a concept? Ask the built-in AI chatbot. It understands the context of your study session and provides plain-English answers to resolve doubts instantly.
+
+Secure Authentication: Full user authentication system powered by secure JSON Web Tokens (JWT).
+
+Auto-Saving & Downloading: Your sessions are automatically saved to your private dashboard. You can also export your notes as HTML files.
+
+Premium UI/UX: A highly aesthetic, asymmetric, dark-emerald themed interface designed for focus and modern web standards.
+
+Tech Stack
+
+This project is built using the robust MERN Stack (modified with PostgreSQL via Prisma) and modern integrations.
+
+Frontend
+
+React.js (Vite) - Component-based UI rendering
+
+Vanilla CSS - Custom, clean, utility-free styling for maximum control
+
+React Router v6 - Client-side page routing
+
+React-Quill-New - Rich text editor for study notes
+
+React-Player - Unified video player component
+
+React-Markdown - For rendering formatted AI chatbot responses
+
+Axios - For making requests to the backend API
+
+Backend
+
+Node.js & Express.js - Fast, unopinionated backend web framework
+
+PostgreSQL - Relational database for structured data storage
+
+Prisma ORM - Next-generation Node.js and TypeScript ORM for safe database queries
+
+JSON Web Tokens (JWT) - For secure, stateless user authentication and authorization
+
+Google Generative AI (Gemini) - LLM integration via gemini-flash-latest for the AI Tutor feature
+
+Bcrypt - Password hashing for secure user credential storage
+
+Cors & dotenv - Cross-origin resource sharing and environment variable management
+
+Folder Structure
+
+A clean, modular architecture separating the client side and the server side.
+
+StudySpace/
+├── frontend/
+│   ├── public/
+│   ├── src/
+│   │   ├── api.js
+│   │   ├── App.jsx
+│   │   ├── index.css
+│   │   ├── main.jsx
+│   │   └── pages/
+│   │       ├── Dashboard.jsx
+│   │       ├── Dashboard.css
+│   │       ├── LandingPage.jsx
+│   │       ├── LandingPage.css
+│   │       ├── Login.jsx
+│   │       ├── Login.css
+│   │       ├── Register.jsx
+│   │       ├── Register.css
+│   │       ├── SessionWorkspace.jsx
+│   │       └── SessionWorkspace.css
+│   └── package.json
+│
+├── backend/
+│   ├── prisma/
+│   │   └── schema.prisma
+│   ├── src/
+│   │   ├── controllers/
+│   │   │   ├── ai.controller.js
+│   │   │   ├── authController.js
+│   │   │   └── session.controller.js
+│   │   ├── middleware/
+│   │   │   └── authMiddleware.js
+│   │   ├── routes/
+│   │   │   ├── aiRoutes.js
+│   │   │   ├── authRoutes.js
+│   │   │   └── sessionRoutes.js
+│   │   └── index.js
+│   ├── .env
+│   └── package.json
+│
+└── README.md
+Getting Started
+
+To run this project locally, you will need Node.js installed on your machine along with a PostgreSQL database instance and a Google AI API Key.
+
+1. Clone the Repository
+git clone <your-repository-url>
+cd StudySpace
+2. Set up the Backend
+cd backend
+npm install
+
+# Set up your .env file
+# DATABASE_URL="postgresql://user:pass@localhost:5432/studyspace"
+# DIRECT_URL="postgresql://user:pass@localhost:5432/studyspace"
+# JWT_SECRET="your_secure_random_string"
+# GEMINI_API_KEY="your_google_ai_key"
+
+npx prisma db push
+
+npm run dev
+3. Set up the Frontend
+cd frontend
+npm install
+
+npm run dev
+4. Open the App
+
+Navigate to http://localhost:5173 in your browser.
+
+Designed & Developed as a premium, modern EdTech learning workspace.
+
+Agar chaho to main is README ko GitHub standout version (badges + screenshots + demo link + deployment section) mein convert bhi kar sakta hoon — jo recruiters ko impress karega.
 npm run dev
 ```
 
