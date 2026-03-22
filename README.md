@@ -1,19 +1,19 @@
-# 🎓 StudySpace
+# StudySpace
 
 StudySpace is a modern, AI-powered EdTech web application designed to help students master video content in record time. It allows users to watch educational YouTube videos while seamlessly taking timestamp-synced rich text notes and interacting with a context-aware AI tutor built right into the workspace.
 
-## ✨ Features
+## Features
 
-- **🎬 Video-Integrated Learning**: Paste a YouTube link and watch your video alongside your notes. No more alt-tabbing or losing your place.
-- **📝 Timestamp-Synced Notes**: Take rich text notes (with formatting and links) that automatically sync with video timestamps. 
-- **🤖 AI Tutor (Powered by Gemini)**: Stuck on a concept? Ask the built-in AI chatbot. It understands the context of your study session and provides plain-English answers to resolve doubts instantly.
-- **🔐 Secure Authentication**: Full user authentication system powered by secure JSON Web Tokens (JWT).
-- **💾 Auto-Saving & Downloading**: Your sessions are automatically saved to your private dashboard. You can also export your notes as HTML files.
-- **🎨 Premium UI/UX**: A highly aesthetic, asymmetric, dark-emerald themed interface designed for focus and modern web standards.
+- ** Video-Integrated Learning**: Paste a YouTube link and watch your video alongside your notes. No more alt-tabbing or losing your place.
+- ** Timestamp-Synced Notes**: Take rich text notes (with formatting and links) that automatically sync with video timestamps. 
+- ** AI Tutor (Powered by Gemini)**: Stuck on a concept? Ask the built-in AI chatbot. It understands the context of your study session and provides plain-English answers to resolve doubts instantly.
+- ** Secure Authentication**: Full user authentication system powered by secure JSON Web Tokens (JWT).
+- ** Auto-Saving & Downloading**: Your sessions are automatically saved to your private dashboard. You can also export your notes as HTML files.
+- ** Premium UI/UX**: A highly aesthetic, asymmetric, dark-emerald themed interface designed for focus and modern web standards.
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 This project is built using the robust **MERN Stack** (modified with PostgreSQL via Prisma) and modern integrations.
 
@@ -37,7 +37,7 @@ This project is built using the robust **MERN Stack** (modified with PostgreSQL 
 
 ---
 
-## 📂 Folder Structure
+##  Folder Structure
 
 A clean, modular architecture separating the client side and the server side.
 
@@ -86,7 +86,7 @@ StudySpace/
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 To run this project locally, you will need Node.js installed on your machine along with a PostgreSQL database instance and a Google AI API Key.
 
