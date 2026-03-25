@@ -248,15 +248,11 @@ npm run dev
 
 Navigate to http://localhost:5173 in your browser.
 
-Designed & Developed as a premium, modern EdTech learning workspace.
 
-Agar chaho to main is README ko GitHub standout version (badges + screenshots + demo link + deployment section) mein convert bhi kar sakta hoon — jo recruiters ko impress karega.
-npm run dev
-```
 
 ### 4. Open the App
 Navigate to `http://localhost:5173` in your browser.
 
 ---
 
-> Designed & Developed as a premium, modern EdTech learning workspace.
+
